@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+/* Custom utility classes */
+.bg-primary-gradient {
+  background: linear-gradient(to top, #E67963, #ff6a1a);
+}
+
+.primary {
+  color: #E67963;
+}
+
+.bg-primary {
+  background-color: #E67963 ;
+}
+
+.text-primary {
+  color: #905143;
+}
+.bg-primary-dull {
+  background-color: #500e03; /* a softer shade of #E67963 */
+}
+.no-scrollbar::-webkit-scrollbar{
+  display: none;
+}
+
