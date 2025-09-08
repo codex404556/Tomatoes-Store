@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from './Card'
 import { useAppContext } from '../context/AppContext'
+import Card from './Card';
 
 const BestSeller = () => {
   const { products } = useAppContext();
@@ -10,11 +10,10 @@ const BestSeller = () => {
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 md:gap-6 lg:grid-cols-5 mt-6">
         {products
           .filter((item) => item.inStock)
-          .slice(0,5)
+          .slice(0, 5)
           .map((item, index) => (
             <Card key={index} product={item} />
           ))}
-        
       </div>
     </div>
   );

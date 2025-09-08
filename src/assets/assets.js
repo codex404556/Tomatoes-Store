@@ -70,6 +70,8 @@ import uploud_area from "./upload_area.png"
 import box_icon from "./box_icon.svg"
 
 
+
+
 export const assets = {
     logo,
     search_icon,

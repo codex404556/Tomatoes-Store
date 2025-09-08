@@ -3,7 +3,7 @@ import { assets, footerLinks } from '../assets/assets';
 
 const FooterSection = () => {
   return (
-    <footer className="px-6 pt-8 md:px-16 lg:px-36 w-full text-gray-300 bg-gray-500 mt-24">
+    <footer id="contact" className="px-6 pt-8 md:px-16 lg:px-36 w-full text-gray-300 bg-gray-500 mt-24">
       <div className="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-500 pb-10">
         <div className="md:max-w-96">
           <img alt="Tomato-Logo" className="h-25" src={assets.logo} />
