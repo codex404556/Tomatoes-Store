@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { dummyProducts } from "../assets/assets";
 import toast from "react-hot-toast";
-import { AppContext } from "./AppContext";
+import { AppContext } from "./AppContext.js";
 
 export const AppContextProvider = ({children})=>{
 
