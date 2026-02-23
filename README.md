@@ -72,11 +72,4 @@ Demo products, categories, and orders are defined in `src/assets/assets.js`. You
 ## Deployment
 
 GitHub Pages workflow lives at `.github/workflows/pages.yml`. If deploying under a repo subpath, set `base` in `vite.config.js` to match the repo name.
-
-## Author
-
-Ali Hussein  
-Frontend Web Developer  
-GitHub: https://github.com/codex404556  
-Portfolio: https://alihussein-dev.vercel.app/  
-LinkedIn: https://linkedin.com/in/error-best-381303331
+ 
